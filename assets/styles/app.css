@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
-body {
-    background-color: skyblue;
+@theme {
+    --font-sans: "Inter", sans-serif;
+    --font-display: "Space Grotesk", sans-serif;
+    --color-brand: var(--color-amber-500);
 }
